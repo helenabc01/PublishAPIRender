@@ -1,0 +1,10 @@
+PUT http://localhost:9091/api/funcionario/alterarInfo/6
+Content-Type: application/json
+
+{
+  "nome": "Professor Modols",
+  "cargo": "Professor de DS2",
+  "data_admissao": "2023-02-02",
+  "salario": 199999.00,
+  "departamento": "GerminareTech123"
+}
