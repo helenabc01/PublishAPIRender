@@ -9,6 +9,6 @@ RUN mvn clean package -DskipTests
 # Package stage
 #
 FROM openjdk:17-jdk-slim
-COPY --from=build /target/PraticaPicPay-0.0.1-SNAPSHOT.jar petcare.jar
+COPY --from=build /target/PraticaD2-0.0.1-SNAPSHOT.jar PraticaD2.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","PraticaPicPay.jar"]
+ENTRYPOINT ["java","-jar","PraticaD2.jar"]
