@@ -2,7 +2,7 @@ POST http://localhost:9091/api/funcionario/cadastrar
 Content-Type: application/json
 
 {
-  "nome": "Professor Modolo",
+  "nome": "Professor Modolo1",
   "cargo": "Professor",
   "data_admissao": "2023-02-01",
   "salario": 100000.00,
